@@ -120,6 +120,10 @@ main> section{
     margin-top: 30px;
 }
 
+.section-title{
+    font-size: 3rem;
+    font-weight:700 ;
+}
 
 
 .banner-img{
@@ -150,10 +154,6 @@ main> section{
 }
 
 
-.feature-title{
-    font-size: 3rem;
-    font-weight:700 ;
-}
 
 #quick-list{
 
