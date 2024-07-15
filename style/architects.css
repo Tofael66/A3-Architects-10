@@ -202,9 +202,7 @@ feature section style start here */
     font-weight: 700;
 }
 
-.featured-architect img{
-    width: 100%;
-}
+
 
 
 /* 
@@ -254,6 +252,10 @@ feature section style end here */
 
 }
 
+.fact-container{
+  padding-top:30px ;
+}
+
 .fact-name{
     font-size: 1.25rem;
     font-weight: 600;
@@ -273,11 +275,13 @@ feature section style end here */
 .sponsor-companies{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+   
 }
 
 .sponsor-companies img{
    filter: grayscale(100%);
 }
+
 
 
 /* resposive media quare */
@@ -288,6 +292,12 @@ feature section style end here */
     .teams{
         flex-direction: column;
 
+    }
+
+    
+    .featured-architect img{
+        width: 100%;
+      
     }
 
     .team-img-container, .facts-container, .sponsor-companies {
@@ -346,6 +356,12 @@ flex-direction: column;
         margin-top: 20px;
         margin-left: 20px;
     }
+
+    
+.featured-architect img{
+    width: 100%;
+  
+}
 
 
 
