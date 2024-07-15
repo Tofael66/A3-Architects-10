@@ -189,6 +189,18 @@ feature section style start here */
     margin-top: 0px;
     margin-bottom: 0px;
  }
+#experience-badge{
+    padding: 45px 42px;
+    font-weight: 500;
+   font-size: 1.25rem;
+   margin-left: -100px;
+   margin-top: -100px;
+   z-index: 1;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
 
 
 
